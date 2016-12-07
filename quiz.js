@@ -13,7 +13,7 @@ console.log(myArray[2])
 
 
 function checker(boolean) {
-  if (boolean == true) {
+  if (boolean === true) {
     console.log(myArray[0] + myArray[1] + myArray[2] + ' is my sentence');
   }
   else {
@@ -33,7 +33,7 @@ var Batman = {
 };
 
 function batmaaan (mancheck) {
-  if (Batman[0] === true) {
+  if (Batman[0] == true) {
     console.log(utilityBelt[0] + Batman[2] + Batman [3] + ' is my sentence');
   }
   else {
