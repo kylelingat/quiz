@@ -33,7 +33,7 @@ var Batman = {
 };
 
 function batmaaan (mancheck) {
-  if (Batman[0] === true) {
+  if (mancheck === true) {
     console.log(utilityBelt[0] + Batman[2] + Batman [3] + ' is my sentence');
   }
   else {
