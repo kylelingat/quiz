@@ -25,12 +25,12 @@ function checker(boolean) {
 checker(myArray[3]);
 
 
-var Batman = [
+var Batman = {
   man : true,
   utilityBelt : ['grappling hook', 'smoke thing', 'perfume'],
   vehicle : 'batmobile',
   sidekick : 'robin'
-];
+};
 
 function batmaaan (mancheck) {
   if (Batman[0] == true) {
